@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/
+
+# Python virtual environment
+services/engine/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+# Exclude local override env files but track the committed defaults
+*.env.local
+
+# Node
+web/node_modules/
+web/dist/
+web/.vite-temp/
